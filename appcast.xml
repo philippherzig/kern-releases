@@ -6,39 +6,35 @@
         <description>Kern DAW updates</description>
         <language>en</language>
 
-        <!-- Latest Release -->
         <item>
-            <title>Version 0.2.1</title>
-            <pubDate>Wed, 05 Feb 2026 22:26:00 +0100</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <title>Version 0.2.2</title>
+            <pubDate>Wed, 05 Feb 2026 22:45:00 +0100</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>Release 0.2.1</h2>
+                <h2>Release 0.2.2</h2>
                 <ul>
-                    <li>Fixed: Move to Applications now requests admin password when needed</li>
+                    <li>Fixed: Move to Applications now works correctly</li>
+                    <li>Removes quarantine flag for smoother experience</li>
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.1/Kern.dmg"
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.2/Kern.dmg"
                 type="application/octet-stream"
-                sparkle:edSignature="Qh+Y9tc4zRoUYcN6T3tqZz2Gfz/yLsG1BC5t+6azavqIU42kQ5rCLCqcyRRpQYr+W8jeR1kzSFvlRgZ2E3SpCw=="
-                length="16256420"
+                sparkle:edSignature="9nyF06ThRI4hpfNwCLMP3I3YfS5v0LTylQ/djLvPJbCTyu4yzn5tBOzHq5vvIwrsW5KfcG6YVfWssDijt/J+Aw=="
+                length="16255725"
             />
         </item>
 
-        <!-- Previous Releases -->
         <item>
-            <title>Version 0.2.0</title>
-            <pubDate>Wed, 05 Feb 2026 22:02:00 +0100</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <title>Version 0.2.1</title>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
             <enclosure
-                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.0/Kern.dmg"
-                type="application/octet-stream"
-                sparkle:edSignature="UaeFSFLclW+Ks2fOn7vf+Qzmoo8p6mlrlOJoBhi+vJ5vI7nC3zzylZDY57Wqdc4jhKME4+U3fObFFmIYb5l6BA=="
-                length="16256615"
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.1/Kern.dmg"
+                sparkle:edSignature="Qh+Y9tc4zRoUYcN6T3tqZz2Gfz/yLsG1BC5t+6azavqIU42kQ5rCLCqcyRRpQYr+W8jeR1kzSFvlRgZ2E3SpCw=="
+                length="16256420"
             />
         </item>
 
