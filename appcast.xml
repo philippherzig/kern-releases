@@ -8,6 +8,30 @@
 
         <!-- Latest Release -->
         <item>
+            <title>Version 0.2.0</title>
+            <pubDate>Wed, 05 Feb 2026 22:02:00 +0100</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Release 0.2.0 - Direct Distribution</h2>
+                <ul>
+                    <li>Sentry crash reporting - we now get notified about crashes</li>
+                    <li>Sparkle auto-updates - you'll be notified of new versions</li>
+                    <li>Move to Applications helper on first launch</li>
+                    <li>Removed sandbox for better file system access</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.0/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="UaeFSFLclW+Ks2fOn7vf+Qzmoo8p6mlrlOJoBhi+vJ5vI7nC3zzylZDY57Wqdc4jhKME4+U3fObFFmIYb5l6BA=="
+                length="16256615"
+            />
+        </item>
+
+        <!-- Previous Release -->
+        <item>
             <title>Version 0.1.3</title>
             <pubDate>Wed, 05 Feb 2026 21:26:00 +0100</pubDate>
             <sparkle:version>5</sparkle:version>
@@ -17,8 +41,6 @@
                 <h2>Alpha Release 0.1.3</h2>
                 <ul>
                     <li>Initial alpha release for friends &amp; family testing</li>
-                    <li>Crash reporting enabled (Sentry)</li>
-                    <li>Auto-updates via Sparkle</li>
                 </ul>
             ]]></description>
             <enclosure
