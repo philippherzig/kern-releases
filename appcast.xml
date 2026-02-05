@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Kern Updates</title>
+        <link>https://github.com/philippherzig/kern-releases</link>
+        <description>Kern DAW updates</description>
+        <language>en</language>
+
+        <!-- Latest Release -->
+        <item>
+            <title>Version 0.1.3</title>
+            <pubDate>Wed, 05 Feb 2026 21:26:00 +0100</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Alpha Release 0.1.3</h2>
+                <ul>
+                    <li>Initial alpha release for friends &amp; family testing</li>
+                    <li>Crash reporting enabled (Sentry)</li>
+                    <li>Auto-updates via Sparkle</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.1.3/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="dVRiSrMg5jD5RS/sUiU/fwuIn4iM69RQUTjTz7U83rohJSQZ6DjR5ZHjHfTD7RKy+Hji/lxHpbdntJCHCX5xCQ=="
+                length="16254580"
+            />
+        </item>
+
+    </channel>
+</rss>
