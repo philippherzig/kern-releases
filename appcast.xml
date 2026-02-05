@@ -7,34 +7,26 @@
         <language>en</language>
 
         <item>
-            <title>Version 0.2.2</title>
-            <pubDate>Wed, 05 Feb 2026 22:45:00 +0100</pubDate>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <title>Version 0.2.0</title>
+            <pubDate>Wed, 05 Feb 2026 23:30:00 +0100</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>Release 0.2.2</h2>
+                <h2>What's New in 0.2.0</h2>
                 <ul>
-                    <li>Fixed: Move to Applications now works correctly</li>
-                    <li>Removes quarantine flag for smoother experience</li>
+                    <li>Direct distribution outside App Store</li>
+                    <li>Automatic updates via Sparkle</li>
+                    <li>Crash reporting via Sentry</li>
+                    <li>Move to Applications prompt for smoother installation</li>
+                    <li>Removed sandbox restrictions for better AU plugin compatibility</li>
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.2/Kern.dmg"
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.0/Kern.dmg"
                 type="application/octet-stream"
-                sparkle:edSignature="YwTifVozYeSjjsHqdA/i3DiWfSAwoOzbOHJfcfkrIgP9gjKEcWua4QRl9h6NU5z8r+dAnY19qO+Z1sswHEO4CA=="
-                length="16255065"
-            />
-        </item>
-
-        <item>
-            <title>Version 0.2.1</title>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
-            <enclosure
-                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.1/Kern.dmg"
-                sparkle:edSignature="Qh+Y9tc4zRoUYcN6T3tqZz2Gfz/yLsG1BC5t+6azavqIU42kQ5rCLCqcyRRpQYr+W8jeR1kzSFvlRgZ2E3SpCw=="
-                length="16256420"
+                sparkle:edSignature="FKohDyMiNZVN8zVAlofUalPEVhTkIOGHwbp5F2bPFYgpaeGe67h5uE1tPUSZKQ+4TvgUk9e1qv+sc9hmShFiAA=="
+                length="16256020"
             />
         </item>
 
