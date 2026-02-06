@@ -7,6 +7,31 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.2.1</title>
+            <pubDate>Fri, 06 Feb 2026 20:43:50 +0100</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.2.1</h2>
+                <ul>
+                    <li>Unified drag &amp; drop for instruments and effects from the sidebar</li>
+                    <li>Native sidebar lists for better performance</li>
+                    <li>Auto-open instrument picker when creating instrument tracks</li>
+                    <li>Fixed sidebar indentation and collapsible sections</li>
+                    <li>Fixed clip drag ghost snapping</li>
+                    <li>Fixed display tracks for grouped tracks</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.1/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="RTfmvKlWvH7+nYih5s10Ei64bmC2GEBsbTd4pn6a1VdCybgU2OsZppc7gt+1M878WRplfjLspvM8URmoowaFCw=="
+                length="16145256"
+            />
+        </item>
+
+        <item>
             <title>Version 0.2.0</title>
             <pubDate>Wed, 05 Feb 2026 23:30:00 +0100</pubDate>
             <sparkle:version>6</sparkle:version>
