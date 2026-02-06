@@ -7,8 +7,29 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.2.2</title>
+            <pubDate>Fri, 06 Feb 2026 21:13:45 +0100</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.2.2</h2>
+                <ul>
+                    <li>Fixed: Sparkle update dialog buttons now respond to clicks</li>
+                    <li>Fixed: Event monitors no longer consume events from other windows</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.2/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="fMO3tQSgFMVGdsKniw2PpnTYfacPC5/DEOh8P9GMvpWmpMn0lh7pGIe5aEoUWJZwJ+0popIngYpMFuKAgGhUAQ=="
+                length="16146160"
+            />
+        </item>
+
+        <item>
             <title>Version 0.2.1</title>
-            <pubDate>Fri, 06 Feb 2026 20:43:50 +0100</pubDate>
+            <pubDate>Thu, 06 Feb 2026 20:40:00 +0100</pubDate>
             <sparkle:version>7</sparkle:version>
             <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
