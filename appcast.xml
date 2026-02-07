@@ -7,6 +7,32 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.2.3</title>
+            <pubDate>Fri, 07 Feb 2026 15:15:00 +0100</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.2.3</h2>
+                <ul>
+                    <li>Unified plugin category system with consistent icons</li>
+                    <li>Non-activating plugin panels with automatic text editing detection</li>
+                    <li>Simplified Key &amp; Scale popover</li>
+                    <li>Enlarged clickable area of transport info buttons (Key, BPM)</li>
+                    <li>Improved timeline grid line visibility in dark mode</li>
+                    <li>Fixed marquee vertical scroll direction</li>
+                    <li>Filtered out modal dialog app hangs from Sentry reporting</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.3/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="ONCAZ7bcy9K3MJHV2kCP+amI4wJUJh6rN20ND1H5kaVbouTSqclo2XBpMPoFmFLIeuno70mXRSA6ot37+THaDg=="
+                length="16303459"
+            />
+        </item>
+
+        <item>
             <title>Version 0.2.2</title>
             <pubDate>Fri, 06 Feb 2026 21:13:45 +0100</pubDate>
             <sparkle:version>8</sparkle:version>
