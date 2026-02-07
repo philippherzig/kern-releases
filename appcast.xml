@@ -7,26 +7,6 @@
         <language>en</language>
 
         <item>
-            <title>Version 0.2.4</title>
-            <pubDate>Fri, 07 Feb 2026 16:00:00 +0100</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h2>What's New in 0.2.4</h2>
-                <ul>
-                    <li>Test release for Sparkle update dialog</li>
-                </ul>
-            ]]></description>
-            <enclosure
-                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.4/Kern.dmg"
-                type="application/octet-stream"
-                sparkle:edSignature="/5ZodYSZO5qLGeZju1Bgv8KE0NUeMjIUW2VOzdgmhKgGMrLi6qzQlXs6XGg040NwtALVEJkExLttxFkXNLLyAg=="
-                length="16311905"
-            />
-        </item>
-
-        <item>
             <title>Version 0.2.3</title>
             <pubDate>Fri, 07 Feb 2026 15:15:00 +0100</pubDate>
             <sparkle:version>10</sparkle:version>
