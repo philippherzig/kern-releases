@@ -7,6 +7,33 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.2.4</title>
+            <pubDate>Fri, 07 Feb 2026 22:00:00 +0100</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.2.4</h2>
+                <ul>
+                    <li>Switched clip interaction from zone-based to CMD-modifier based</li>
+                    <li>Added custom cursors for fade handles, timestretch, and creation mode</li>
+                    <li>Implemented solo audio logic so soloed tracks are actually heard</li>
+                    <li>Hide tracks from timeline with recursive group support</li>
+                    <li>Smooth gain slider by moving gain to GPU and bypassing SwiftUI during drag</li>
+                    <li>Smooth BPM stepper and swing slider performance</li>
+                    <li>Fixed swing grid snapping and visual positions during drag</li>
+                    <li>Fixed cursor display in audio focus mode</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.4/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="WJLQ7N3HAzDYIdniAHrw9ltlPoZgGGUv2w3rVNUzxC0WAyxzxA0R7Xtu+fMx+k36J+FV+pa4+P1QTCGXl9C0DQ=="
+                length="1360544"
+            />
+        </item>
+
+        <item>
             <title>Version 0.2.3</title>
             <pubDate>Fri, 07 Feb 2026 15:15:00 +0100</pubDate>
             <sparkle:version>10</sparkle:version>
