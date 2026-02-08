@@ -7,6 +7,34 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.2.5</title>
+            <pubDate>Sat, 08 Feb 2026 22:00:00 +0100</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.2.5</h2>
+                <ul>
+                    <li>Redesigned effects inspector with empty state, optimistic UI, and toggle</li>
+                    <li>Multi-clip drag via marquee selection</li>
+                    <li>Open Recent Project action in command palette</li>
+                    <li>Sidebar items now select on mouseDown for faster response</li>
+                    <li>Improved Add Task field UX with full-row click and keyboard passthrough</li>
+                    <li>Fixed relative clip distances during multi-clip keyboard moves</li>
+                    <li>Fixed marquee keyboard move glitches (selection, ghost trails, CALayer sync)</li>
+                    <li>Fixed waveform loading shimmer artifacts after project load</li>
+                    <li>Major performance improvements: fingerprint-based render skipping, structural update path, GPU bypass for keyboard moves</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.5/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="URMJkRTK0NOdzkqe8FIO4rgFcAsD4D0lfiygWuRQDz+aKssWQq65arBPwf7QBLJla4f9zhUyEftOEnQDxbWoDA=="
+                length="16355410"
+            />
+        </item>
+
+        <item>
             <title>Version 0.2.4</title>
             <pubDate>Fri, 07 Feb 2026 22:00:00 +0100</pubDate>
             <sparkle:version>11</sparkle:version>
