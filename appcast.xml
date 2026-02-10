@@ -7,6 +7,34 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.2.6</title>
+            <pubDate>Mon, 10 Feb 2026 22:45:00 +0100</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.2.6</h2>
+                <ul>
+                    <li>Compact track mode via Option-Up/Down for denser timeline views</li>
+                    <li>Live dB readout during gain slider drag</li>
+                    <li>Track color now used for selection highlight and drop ghost instead of system accent</li>
+                    <li>Improved plugin transport timing with frame-position pointer and render-ahead compensation</li>
+                    <li>Butter-smooth gain slider in focus mode via AppKit mouse tracking</li>
+                    <li>Sample-accurate sidechain triggers moved to audio thread</li>
+                    <li>Fixed waveform slice UV normalization in texture shader</li>
+                    <li>Fixed sidebar selection text visibility when outline view loses focus</li>
+                    <li>Corrected waveform amplitude display in normal timeline view</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.6/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="+dZAJxXWRHSu0FvdU+G6EP21dldhFqJXctZfTR5hVq1Wljo2mpnbxQ9/hKWS2AeFe/kM7EcV4yomoMqxRTNVBA=="
+                length="16859997"
+            />
+        </item>
+
+        <item>
             <title>Version 0.2.5</title>
             <pubDate>Sat, 08 Feb 2026 22:00:00 +0100</pubDate>
             <sparkle:version>12</sparkle:version>
