@@ -7,28 +7,6 @@
         <language>en</language>
 
         <item>
-            <title>Version 0.2.8</title>
-            <pubDate>Thu, 13 Feb 2026 00:15:00 +0100</pubDate>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>0.2.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h2>What's New in 0.2.8</h2>
-                <ul>
-                    <li>Now runs on macOS 15 Sequoia and newer (previously required macOS 26 Tahoe)</li>
-                    <li>Apple Intelligence MIDI generation available on macOS 26+ with graceful fallback</li>
-                    <li>Liquid Glass effects on macOS 26+ with material fallback on Sequoia</li>
-                </ul>
-            ]]></description>
-            <enclosure
-                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.8/Kern.dmg"
-                type="application/octet-stream"
-                sparkle:edSignature="kyasFgpCdndgzd6nPZ1Mhs+Z0p6xYgBe7q1GuREm3WUBF9pGVHABRUlO1l45Xz6lDOurJ8l1HoPDg+KdbB4bAA=="
-                length="17045051"
-            />
-        </item>
-
-        <item>
             <title>Version 0.2.7</title>
             <pubDate>Wed, 12 Feb 2026 23:45:00 +0100</pubDate>
             <sparkle:version>14</sparkle:version>
