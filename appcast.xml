@@ -7,6 +7,44 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.2.7</title>
+            <pubDate>Wed, 12 Feb 2026 23:45:00 +0100</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.2.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.2.7</h2>
+                <ul>
+                    <li>MCPB Desktop Extension for one-click Claude integration</li>
+                    <li>MCP plugin parameter control tools with pagination support</li>
+                    <li>Per-clip velocity editing with updated app icon</li>
+                    <li>MIDI clip stamp mode with ghost note preview</li>
+                    <li>Number keys set clip volume, Z/X for octave and slice-page navigation</li>
+                    <li>Cmd+Shift+O bound to Open Recent Project by default</li>
+                    <li>Sample-accurate sidechain timing with inline impulse rendering and loop-safe triggers</li>
+                    <li>Waveform loading optimized with disk cache, vDSP, and parallelism</li>
+                    <li>Grid lines update in real-time during pinch-to-zoom</li>
+                    <li>Plugin windows no longer drop behind other apps when switching away</li>
+                    <li>Keyboard shortcuts now route through plugin windows for transport control</li>
+                    <li>Cmd-click stamp on sample track uses full sample duration instead of 1 bar</li>
+                    <li>Cmd+click clip duplication now produces audio on playback</li>
+                    <li>Clip colors update immediately when group color changes</li>
+                    <li>File-dropped tracks no longer inherit group membership</li>
+                    <li>Transient markers move with clip during drag in focus mode</li>
+                    <li>Fixed marquee from clip selection using correct display track index</li>
+                    <li>Instrument plugins restored correctly when loading a project</li>
+                    <li>Instrument tracks included in offline bounce/export</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.7/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="9lAH+o87yF0ywKCPj2ogp/6uyE0A7ZO2sX7GzrygYfLHyY+OVG4/0iwObb6SifD3VKvNQsu2O4EM4gjIsI+GDw=="
+                length="17044644"
+            />
+        </item>
+
+        <item>
             <title>Version 0.2.6</title>
             <pubDate>Mon, 10 Feb 2026 22:45:00 +0100</pubDate>
             <sparkle:version>13</sparkle:version>
