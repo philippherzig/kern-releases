@@ -7,6 +7,34 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.2.8</title>
+            <pubDate>Thu, 13 Feb 2026 17:30:00 +0100</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.2.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.2.8</h2>
+                <ul>
+                    <li>Quantize Selection command (Cmd+U) snaps selected clips to the grid</li>
+                    <li>Audio diagnostics for CPU load and glitch detection</li>
+                    <li>Documentation link added to Help menu</li>
+                    <li>Shortcuts remapped from § to mnemonic Option keys (e.g. ⌥E for effects)</li>
+                    <li>Select All in Track (Cmd+A scoped to active track)</li>
+                    <li>Clip gain now applied correctly to seamless loop buffer</li>
+                    <li>Removed duplicate Zoom to Fit shortcut</li>
+                    <li>Sandbox file access cleaned up with default folder support</li>
+                    <li>Improved impulse pre-activation alignment for sidechain timing</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.2.8/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="PDmlgvZaBmkQI9M/aCUPamPGXfwpW/lkreTz3v+JNI/DTe4NTXUjKhgzGvIo1FEeuhz0uXEZuLE/Wx3iK9/bAg=="
+                length="17054697"
+            />
+        </item>
+
+        <item>
             <title>Version 0.2.7</title>
             <pubDate>Wed, 12 Feb 2026 23:45:00 +0100</pubDate>
             <sparkle:version>14</sparkle:version>
