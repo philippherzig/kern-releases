@@ -7,6 +7,41 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.3.0</title>
+            <pubDate>Sat, 15 Feb 2026 15:15:00 +0100</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.3.0</h2>
+                <ul>
+                    <li>Per-track plugin windows with effect chain sidebar</li>
+                    <li>Automatic Loudness Compensation (ALC) with K-weighted LUFS measurement</li>
+                    <li>Seamless playback during clip moves</li>
+                    <li>Waveform and MIDI preview in drop ghost during file drag</li>
+                    <li>MCP server redesigned: consolidated from 23 to 8 tools, added MIDI editing and plugin management</li>
+                    <li>Tempo-independent MIDI clips (durationBeats)</li>
+                    <li>Bar selection expand/shrink (Cmd+Shift+. / Cmd+Shift+,)</li>
+                    <li>Vertical zoom modes without requiring clip selection</li>
+                    <li>Command palette pre-warmed for instant open</li>
+                    <li>Swift 6 language mode migration</li>
+                    <li>Borderless plugin windows with titlebar click-through</li>
+                    <li>Stem splitter sample rate, memory, and waveform performance fixes</li>
+                    <li>Fixed zero-length loop selection handling</li>
+                    <li>Fixed stale hover states in sidebar during trackpad momentum scrolling</li>
+                    <li>Fixed ghost note not clearing when CMD key released</li>
+                    <li>Option key now bypasses grid snap when dragging MIDI notes</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.3.0/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="UeWXXG6fJaxXsq4E+hXXGdsqdEXb9chhGzz2ODX901X7rJz8AzeqlYzNC4NBQKmEjoX/IjTF17DKcnDA6G8vCw=="
+                length="15393420"
+            />
+        </item>
+
+        <item>
             <title>Version 0.2.8</title>
             <pubDate>Thu, 13 Feb 2026 17:30:00 +0100</pubDate>
             <sparkle:version>15</sparkle:version>
