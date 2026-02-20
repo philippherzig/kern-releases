@@ -7,6 +7,41 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.4.0</title>
+            <pubDate>Thu, 20 Feb 2026 19:30:00 +0100</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.4.0</h2>
+                <ul>
+                    <li>Plugin strip at bottom of main window with card-based UI and frosted glass material</li>
+                    <li>Resizable plugin windows with proportional scaling</li>
+                    <li>Instrument plugin UI moved from plugin strip to inspector panel</li>
+                    <li>Mixer parameter automation support (volume, pan, mid/side)</li>
+                    <li>On-demand full-resolution waveform loading for deep zoom</li>
+                    <li>Apply fade in/out to all selected clips simultaneously</li>
+                    <li>Zoom to fit clip when entering focus mode</li>
+                    <li>Contextual grid opacity — subtle at rest, full during interactions</li>
+                    <li>Piano roll ghost note preview now shows grid</li>
+                    <li>Instant OOP plugin restore via offscreen parking</li>
+                    <li>Smooth waveform rendering with adaptive anti-aliasing</li>
+                    <li>Plugin strip panel caching for instant track switching</li>
+                    <li>Resolved dark/light mode crashes and ghost plugin windows</li>
+                    <li>Fixed Shift+click clip multi-selection accumulation</li>
+                    <li>Fixed MIDI note grid alignment in arrangement clips</li>
+                    <li>Eliminated data races in PlayheadCoordinator, SeamlessLoopPlayer, and StreamingTrackPlayer</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.4.0/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="MzDdrdhWQTItW4I258SdiD0be9e84NKSyp0WcPedoSwss9Z4z3HRJ92miFteZmtHspKSGrZsOsD4aud5k1lgCw=="
+                length="15454615"
+            />
+        </item>
+
+        <item>
             <title>Version 0.3.0</title>
             <pubDate>Sat, 15 Feb 2026 15:15:00 +0100</pubDate>
             <sparkle:version>16</sparkle:version>
