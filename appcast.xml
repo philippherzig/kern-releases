@@ -7,6 +7,38 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.4.1</title>
+            <pubDate>Fri, 21 Feb 2026 18:30:00 +0100</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.4.1</h2>
+                <ul>
+                    <li>Per-track groove settings — assign individual swing/groove to each track</li>
+                    <li>Project-level sample rate picker with CoreAudio device control</li>
+                    <li>Drag effects from browser to plugin strip</li>
+                    <li>Drag-to-reorder plugin strip cards</li>
+                    <li>Keyboard navigation in plugin strip (Tab, Enter, Delete)</li>
+                    <li>Insert effects between existing plugins with insertion line animation</li>
+                    <li>Click to toggle full-view plugin windows, close with ESC</li>
+                    <li>Key/scale and tempo/groove settings moved from transport bar to project sidebar</li>
+                    <li>Automation grid increased from 8 to 32 rows for finer resolution</li>
+                    <li>Fixed clip offset not honored after clip split</li>
+                    <li>Fixed piano roll ghost notes snapping to wrong grid</li>
+                    <li>Fixed keyboard MIDI events not routed through full-view plugin windows</li>
+                    <li>Fixed Mix sliders too narrow in inspector</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.4.1/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="gDZf/MDG7HuoEH1U/5x2a4qId4MCCtzh3DFVVNiAYgLZKVE6Im9tCXn3j8Q9UVD/RDhvtmNDM1sAwwx1bewjDw=="
+                length="15526029"
+            />
+        </item>
+
+        <item>
             <title>Version 0.4.0</title>
             <pubDate>Thu, 20 Feb 2026 19:30:00 +0100</pubDate>
             <sparkle:version>17</sparkle:version>
