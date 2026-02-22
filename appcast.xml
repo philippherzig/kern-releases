@@ -7,6 +7,31 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.4.2</title>
+            <pubDate>Sat, 22 Feb 2026 19:30:00 +0100</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.4.2</h2>
+                <ul>
+                    <li>Plugin strip meters — real-time peak/RMS level meters with smooth rendering</li>
+                    <li>Liquid Glass effect on plugin strip cards</li>
+                    <li>Plugin strip sidebar with ALC toggle, Mix control, and level meter</li>
+                    <li>Fixed plugin UI knobs not updating during automation playback</li>
+                    <li>Fixed meter colors not adapting to dark/light mode changes</li>
+                    <li>Matched left sidebar width to right sidebar</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.4.2/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="vW6D9wIANWuHjRDvFSbeNqO3Njn4j2uK4lRR5VpbNwC0YYWdjjFGdzj87URO8uUBx+O9H2BWwqttENpe095hAQ=="
+                length="15597899"
+            />
+        </item>
+
+        <item>
             <title>Version 0.4.1</title>
             <pubDate>Fri, 21 Feb 2026 18:30:00 +0100</pubDate>
             <sparkle:version>18</sparkle:version>
