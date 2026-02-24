@@ -7,6 +7,39 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.4.3</title>
+            <pubDate>Mon, 24 Feb 2026 21:30:00 +0100</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.4.3</h2>
+                <ul>
+                    <li>Crash recovery with auto-save and restore on launch</li>
+                    <li>Prompt to save unsaved changes on quit and new project</li>
+                    <li>Dense waveform visualization with gradient fade in track inspector</li>
+                    <li>Scrolling signal history visualization in track inspector</li>
+                    <li>Per-plugin ALC gain nodes and graph-level bypass</li>
+                    <li>MIDI files shown in sidebar file browser</li>
+                    <li>Fixed offline bounce for instrument tracks with AU warm-up and trim</li>
+                    <li>Fixed transport bar clicks blocked when plugin strip visible</li>
+                    <li>Eliminated scroll jitter with O(1) ring buffer and Retina rendering</li>
+                    <li>Fixed ALC, metering, and trackID for master/listen/group bus plugins</li>
+                    <li>Uniform MIDI note color on timeline, velocity shading in focus mode</li>
+                    <li>Eliminated MIDI drag ghost lag by moving parsing off main thread</li>
+                    <li>Fixed crash when creating new project</li>
+                    <li>Refined plugin strip visuals (opacity, padding, empty state)</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.4.3/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="K1xJ9Fk2iYYbFXuoVSfJF643PZv1wB69BewOjhZciH21kNMkPXUwpt1BowHx1O+93nAk0FANP6a8+KpKh6L8Cg=="
+                length="15632758"
+            />
+        </item>
+
+        <item>
             <title>Version 0.4.2</title>
             <pubDate>Sat, 22 Feb 2026 19:30:00 +0100</pubDate>
             <sparkle:version>19</sparkle:version>
