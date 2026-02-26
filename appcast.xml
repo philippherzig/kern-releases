@@ -7,6 +7,42 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.4.4</title>
+            <pubDate>Wed, 26 Feb 2026 21:00:00 +0100</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.4.4</h2>
+                <ul>
+                    <li>Sidechain UI panel in plugin strip cards with controls and descriptions</li>
+                    <li>Welcome sheet on first launch and "Scan for Plugins" command</li>
+                    <li>Appearance-dependent plugin opacity for light and dark mode</li>
+                    <li>Inspector instrument hover overlay replacing sidebar expand</li>
+                    <li>Subtle brightness highlight for clip selection replacing white borders</li>
+                    <li>Renamed Groove section to Grid and reordered inspector layout</li>
+                    <li>Fixed LUFS measurement ~3dB too low due to wrong stereo normalization and missing K-weighting</li>
+                    <li>Fixed crash when resizing clip shorter than grid division</li>
+                    <li>Fixed MIDI notes not moving with clip during keyboard shortcut move</li>
+                    <li>Fixed ruler numbers not updating during zoom and cramped for long projects</li>
+                    <li>Eliminated waveform wiggle with two-ring display architecture</li>
+                    <li>Fixed sidebar and inspector snapping to default widths</li>
+                    <li>Fixed window resizing with proper panel compression</li>
+                    <li>Hidden effect strip for automation tracks</li>
+                    <li>Improved signal history scrolling and metering performance</li>
+                    <li>Fixed critical performance bottlenecks with new guardrails</li>
+                    <li>Reduced light mode transparency with thicker background material</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.4.4/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="pUS4w2DGhII1gimZ0WKR2pS7PLRyyDAJB+eqdxbbBjIKKHxnwEquNB1FREkW/TJ8rWq17FvNL3sUKMpBWFvOBQ=="
+                length="15666174"
+            />
+        </item>
+
+        <item>
             <title>Version 0.4.3</title>
             <pubDate>Mon, 24 Feb 2026 21:30:00 +0100</pubDate>
             <sparkle:version>20</sparkle:version>
