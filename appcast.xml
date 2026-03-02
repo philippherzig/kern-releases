@@ -7,6 +7,38 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.4.5</title>
+            <pubDate>Mon, 02 Mar 2026 21:00:00 +0100</pubDate>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>0.4.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.4.5</h2>
+                <ul>
+                    <li>Improved transient detection using a neural network for more accurate slicing</li>
+                    <li>App audio capture with recording sheet and auto-switch to target app</li>
+                    <li>Trim Silence command for selected clips</li>
+                    <li>Colored waveform curves using clip color instead of flat gray</li>
+                    <li>Window subtitle showing BPM, key/scale, and version</li>
+                    <li>Skip automatic transient detection for samples longer than 30 seconds</li>
+                    <li>Seamless plugin insertion with no audible gap</li>
+                    <li>Auto-recover audio engine when audio device changes</li>
+                    <li>Fixed waveform drift for non-standard sample rates</li>
+                    <li>Fixed ruler scrolling off-screen when entering focus mode</li>
+                    <li>Fixed waveform not updating when scrolling into uncached regions</li>
+                    <li>Improved command palette and plugin insertion performance</li>
+                    <li>Faster sample loading by moving it off the main thread</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.4.5/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="5OULSeKp39DyJadsHQxAT6JbVTQopX3nyn6hKaq5EECIjsdL+Oyurd2FUWE3bzv+J6n9OqPZUXNpwuLockMsDg=="
+                length="17497154"
+            />
+        </item>
+
+        <item>
             <title>Version 0.4.4</title>
             <pubDate>Wed, 26 Feb 2026 21:00:00 +0100</pubDate>
             <sparkle:version>21</sparkle:version>
