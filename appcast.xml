@@ -7,6 +7,43 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.4.6</title>
+            <pubDate>Wed, 05 Mar 2026 21:00:00 +0100</pubDate>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>0.4.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.4.6</h2>
+                <ul>
+                    <li>Tension-based automation curve handles with mid-segment drag</li>
+                    <li>Automation clip duplication with curve preview in ghost</li>
+                    <li>Effect dry/wet mix automation support</li>
+                    <li>Multi-target snap with visual snap guide</li>
+                    <li>Ghost cursor line previewing snapped position on iBeam hover</li>
+                    <li>Visual clip trimming with overlap resolution</li>
+                    <li>Unified selection visuals with white border for clips and notes</li>
+                    <li>Generic parameter UI for plugins without custom view</li>
+                    <li>Improved BPM detection with filename hints and transient-based estimation</li>
+                    <li>Time stretch support for streaming playback</li>
+                    <li>Eliminated automation playback stutter with direct engine writes</li>
+                    <li>Smooth slider display during automation playback</li>
+                    <li>Preserved multi-note selection when dragging in piano roll</li>
+                    <li>Fixed focus mode background bleeding to non-focused clips</li>
+                    <li>Browser preview stops when drag session begins</li>
+                    <li>Fixed complex mode waveform display and mode-switch detection</li>
+                    <li>Fixed groove amount slider stutter with in-place GPU buffer patching</li>
+                    <li>Virtualized parameter list with row recycling and momentum scrolling</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.4.6/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="XEH6sJI8/s0pqf9Yqsnc45R+xm6gpxDFK+jeGSv5hyrDBY8i0S1QgV8zq8sMeoYkafuhMQiAO3QdRXjGeRxUAg=="
+                length="17602504"
+            />
+        </item>
+
+        <item>
             <title>Version 0.4.5</title>
             <pubDate>Mon, 02 Mar 2026 21:00:00 +0100</pubDate>
             <sparkle:version>22</sparkle:version>
