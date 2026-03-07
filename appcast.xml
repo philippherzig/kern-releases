@@ -7,6 +7,53 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.4.7</title>
+            <pubDate>Fri, 07 Mar 2026 21:00:00 +0100</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>0.4.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 0.4.7</h2>
+                <ul>
+                    <li>Floating transport bar at the bottom edge of the window</li>
+                    <li>Redesigned playhead as a persistent ruler marker with drag positioning</li>
+                    <li>Alternating bar stripe backgrounds in the timeline</li>
+                    <li>Ruler ticks, playhead, and loop markers aligned to digit height</li>
+                    <li>Redesigned mixer with vertical DAW-style channel faders</li>
+                    <li>Smooth fader controls for volume and Dry/Wet mix during automation</li>
+                    <li>Vertical Dry/Wet faders in mix popover with track color</li>
+                    <li>Limiter and Lookahead Limiter modes for track output clipping</li>
+                    <li>Cmd+right-click to slice a clip at any position</li>
+                    <li>Auto-merge overlapping MIDI clips when extending</li>
+                    <li>"Normalize Track Volume" command</li>
+                    <li>"Scan for New Plugins" command</li>
+                    <li>Contextual info bar in the inspector</li>
+                    <li>Octave number watermarks in the piano roll</li>
+                    <li>Note name labels on ghost note previews</li>
+                    <li>Visual mute state with consistent transparency</li>
+                    <li>Localization support via String Catalog</li>
+                    <li>Fixed stuck MIDI notes when resizing or cutting clips during loop playback</li>
+                    <li>Fixed MIDI notes ringing past clip boundaries</li>
+                    <li>Fixed clip flicker when dropping files onto the timeline</li>
+                    <li>Fixed fade display on long clips</li>
+                    <li>Fixed inconsistent track height in focus mode</li>
+                    <li>Fixed piano roll octave numbering</li>
+                    <li>Fixed groove slider jitter and BPM change lag</li>
+                    <li>Fixed unmuted tracks not playing in loop mode until restart</li>
+                    <li>Fixed keyboard interaction with dialogs</li>
+                    <li>Replaced hardcoded German dialog strings with English</li>
+                    <li>Various performance and rendering optimizations</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/philippherzig/kern-releases/releases/download/v0.4.7/Kern.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="VBM6/Z1BGT9Jx4g6iqfYU9FSgGufO4refG+8lLDGhZngTmQi/uX5qbxCAEpw9CYZQW+XfWesUiiqSVTgV6b3BA=="
+                length="17691183"
+            />
+        </item>
+
+        <item>
             <title>Version 0.4.6</title>
             <pubDate>Wed, 05 Mar 2026 21:00:00 +0100</pubDate>
             <sparkle:version>23</sparkle:version>
